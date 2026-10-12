@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(0, 255, 255, 0.247);
+}
+
+.parent{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top:  17%;
+    gap: 15px;
+    flex-start
+
+}
+
+.child{
+    border: 2px solid grey;
+    width: 400px; 
+    padding: 1%;
+    flex-direction: column;
+  
+}
+
+.child h1{
+    text-align: center;
+    align-items: center;
+    
+     
+   
+}
+
+.child p {
+    text-align: center;
+     
+   
+}
